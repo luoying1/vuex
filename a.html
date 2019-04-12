@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<base target="_blank" />
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="IE=Edge, chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="renderer" content="webkit" /> 
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<title></title>
+<style type="text/css">
+*,html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,input,p,a,th,td,form,span,i,em,img,a{margin:0;padding:0;border:0;}li{list-style:none}
+a{text-decoration:none;}em,i{font-style:normal;}
+a:hover{text-decoration:none;}.fl{float:left;}.fr{float:right;}
+body,html,div{font-family: "微软雅黑","microsoft yahei";font-size:16px;color:#333;}em,i{font-style: normal;}
+.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}
+table{border-collapse:collapse;border-spacing:0;}
+.wrap,.foot{max-width:1000px;margin-left:auto;margin-right:auto;}.logo{padding:16px 0 13px;}
+.container{background:#aa1b2b url(http://static.hudong.com/56/34/26100000003551154164345434800.jpg) no-repeat center top;padding-bottom:64px;}
+.banner{height:597px;}
+.banner h1,.banner p{text-indent:-99999em;overflow:hidden;}
+.h2title{position:relative;text-align:center;margin:0 auto;width:596px;height:90px;background:url(http://static.hudong.com/16/71/26100000012243154165712883984.png) no-repeat;}
+.h2title h2{font-size:30px;color:#d01b33;margin-left:27.1%;width:281px;min-height:49px;line-height:49px;}
+.h2title p{padding-top:12px;font-size:24px;color:#ffd694;}
+.h2title img{display: block;position:absolute;}
+.h2title .xstitle1{left:-124px;top:-11px;-webkit-animation:opa 1s linear infinite .3s;animation:opa 1s linear infinite .3s;}
+.h2title .xstitle2{right:-132px;top:-19px;-webkit-animation:opa 1s linear infinite ;animation:opa 1s linear infinite ;}
+.h2title .xstitle3{right:-53px;top:56px;-webkit-animation:opa 1s linear infinite .5s;animation:opa 1s linear infinite .5s;}
+@-webkit-keyframes opa{0%{opacity:0;-webkit-transform:scale(0.5);transform:scale(0.5);}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1);}}
+@keyframes opa{0%{opacity:0;-webkit-transform:scale(0.5);transform:scale(0.5);}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1);}}
+.td1-box{padding:110px 82px 0;margin-top:40px;height:473px;background:url(http://static.hudong.com/37/69/26100000012243154165694553374.jpg) no-repeat center top;}
+.progress{position:relative;height:11px;width:100%;background:#d01b33;border-radius:45px;}
+.progress .innerbox{height:11px;border-radius:45px;}
+.progress .inner{-webkit-animation:wid 1s linear;animation:wid 1s linear;background:#d6b9b9;width:100%;position:relative;height:11px;border-radius:45px;}
+.progress .inner .fish{position:absolute;z-index:2;right:-73px;bottom:-6px;}
+.progress .time{position:absolute;top:-7px;font-size:25px;color:#d01b33;}
+.progress .time p{margin:0 auto 5px;width:16px;height:16px;padding:4px;border-radius:100%;
+-webkit-animation:pad 1s linear infinite alternate;
+        animation:pad 1s linear infinite alternate;}
+@-webkit-keyframes pad{0%{background:transparent;background:rgba(208,27,51,0);}100%{background:#e68485;background:rgba(208,27,51,.49);}}
+@keyframes pad{0%{background:transparent;background:rgba(208,27,51,0);}100%{background:#e68485;background:rgba(208,27,51,.49);}}
+.progress .time span{display: block;width:16px;height:16px;border-radius:100%;background:#ffd694;}
+.progress .time.l{left:0;}
+.progress .time.c{left:50%;margin-left:-12px;}
+.progress .time.r{right:0;}
+@-webkit-keyframes wid{from{width:0;}to{width:100%;}}
+@keyframes wid{from{width:0;}to{width:100%;}}
+.td1-box .red-packet img{display: block;margin:78px auto 25px;
+-webkit-animation:swing .5s 1s ease infinite;animation:swing .5s 1s ease infinite;}
+.td1-box>p{font-size:20px;text-align: center;line-height:35px;}
+@-webkit-keyframes swing{
+20%,40%,60%,80%,100%{-webkit-transform-origin:center}
+20%{-webkit-transform:rotate(9deg)}
+40%{-webkit-transform:rotate(-7deg)}
+60%{-webkit-transform:rotate(2deg)}
+80%{-webkit-transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg)}
+}
+@keyframes swing{
+20%,40%,60%,80%,100%{transform-origin:center}
+20%{transform:rotate(9deg)}
+40%{transform:rotate(-7deg)}
+60%{transform:rotate(2deg)}
+80%{transform:rotate(-2deg)}
+100%{transform:rotate(0deg)}
+}
+.td2{margin-top: 80px;}
+.td2-box{color:#222;margin-top: 40px;padding:40px 40px 0;height:838px;background:url(td2.jpg) no-repeat center top;}
+.h3title{position:relative;height:20px;background:#ffd694;display:inline-block;font-size:30px;color:#d01b33;margin-top: 32px;}
+.h3title span{padding:0 6px 0 8px;position:relative;top:-23px}
+.td2-box .h3title{margin-left:14px;}
+.td2-box>p{padding-left:23px;font-size:20px;}
+.hint{margin:24px 0 45px;padding:15px 23px;background:rgba(212,28,53,.1);font-size:18px;line-height:30px;}
+.td2-box img{display: block;margin:0 auto;}
+.td2-box .qylogo{margin:10px auto 55px;}
+.jl-btn{display: block;margin:27px auto 0;width:345px;height:82px;background:url(http://static.hudong.com/54/63/26100000012243154165638101341.png) no-repeat;text-indent:-999999em;overflow:hidden;}
+.hui{color:#666;}
+.td3{margin-top: 80px;}
+.td3-box{margin-top: 40px;padding:46px 40px 0;height:820px;background:url(http://static.hudong.com/14/69/26100000012243154165699429120.jpg) no-repeat center top;}
+.td3-box .tw{margin-bottom:32px;}
+.td3-box .tw span{line-height:176px;display:inline-block;}
+.td3-box .tw img{display: block;float:right;}
+.td3-box p{font-size:20px;padding:10px 26px 0 9px;line-height:30px;}
+.td3-box>img{display: block;margin:48px auto 0;}
+.td4{margin-top:80px;}
+.td4-box{padding:53px 60px 0;height:853px;background:url(td4.jpg) no-repeat center top;}
+.td4-box>p{font-size:20px;line-height:35px;}
+.td4-box>h4{padding:20px 0 24px;font-size:24px;color:#c81931;text-align: center;}
+.td4-box li{float:left;width:195px;margin:0 33px 39px 0;position:relative;}
+.td4-box li.item4{margin-right: 0;}
+.td4-box li.item5{margin-left:110px;margin-bottom:0;}
+.td4-box li.item6,.td4-box li.item7{margin-bottom:0;}
+.td4-box li img{display: block;}
+.td4-box li p{padding:5px 11px 3px;height:56px;font-size:16px;color:#222;line-height:24px;}
+.td4-box li span{padding:0 11px;display: block;color:#c91a31;font-size:20px;}
+.td4-box li span strong{font-size:24px;}
+.td4-box li .rxs{position:absolute;}
+.td5{margin-top:60px;}
+.td5 .h3title{background:rgba(255,199,111,.5);background:-webkit-gradient(linear,left top, right top,from(rgba(255,199,111,.5)),to(rgba(255,199,111,0)));background:-webkit-linear-gradient(left,rgba(255,199,111,.5),rgba(255,199,111,0));background:-o-linear-gradient(left,rgba(255,199,111,.5),rgba(255,199,111,0));background:linear-gradient(to right,rgba(255,199,111,.5),rgba(255,199,111,0));}
+.td5 .h3title span{font-size:30px;color:#ffd694;padding:0 100px 0 15px;}
+.td5-box p{font-size:18px;color:#ffd694;line-height:40px;}
+.pop-up{position:fixed;z-index:99;left: 0;top:0;height:100%;width:100%;background:rgba(0,0,0,.8);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8000000,endColorstr=#c8000000);}
+.pop-up a:hover{text-decoration: none;}
+.pop-up>div{position:absolute;left:50%;top:50%;margin-left:-205px;margin-top:-320px;width:319px;height:388px;padding: 202px 45px 0 46px;background:url(http://static.hudong.com/24/66/26100000012243154165667609347.png) no-repeat;}
+.pop-up .loginbox,.pop-up .win{background:url(http://static.hudong.com/32/66/26100000012243154165665150088.png) no-repeat;}
+.pop-up .btitle,.pop-up .remind{padding:0 15px;margin:0 auto;text-shadow: 0px 2px 9px #fff7f3;font-size:35px;color:#d01b33;text-align: center;}
+.pop-up .btitle{font-size:35px;padding-top: 54px;}
+.pop-up .remind{margin-top:15px;font-size:20px;}
+.pop-up .loginbox .remind,.pop-up .loginbox .btitle{color:#ffd694;text-shadow: none;}
+.pop-up .loginbox .btitle{font-size:45px;padding-top: 45px;}
+.pop-up .login,.pop-up .register{display:inline-block;color:#ffd694;border-radius:30px;width:102px;height:39px;line-height:39px;border:1px solid #ffd694;text-align: center;}
+.pop-up .login{background:#ffd694;color:#d01b33;}
+.pop-up .btnbox{margin-top:60px;text-align: center;}
+.pop-up .login{margin-right: 27px;}
+.pop-up .close{cursor:pointer;position:absolute;display: block;width:38px;height:38px;left:50%;bottom:0;margin-left:-18px;border-radius:100%;}
+.pop-up .win{text-align: center;}
+.pop-up .win p{font-size:25px;color:#ffd694;padding-bottom:3px;}
+.pop-up .win h3{font-size:35px;color:#ffd694;}
+.pop-up .win .inpt{width:255px;margin:0 auto;}
+.pop-up .win input{border-radius:5px;text-indent:12px;padding:12px 0;outline:none;display: block;width:255px;margin-top:14px;font-size:18px;color:#333;}
+.pop-up .xiaobtn{font-size:24px;color:#d01b33;margin:54px auto 0;display: block;width:271px;height:47px;line-height:47px;background:url(http://static.hudong.com/81/64/26100000012243154165640297586.png) no-repeat;text-align: center;}
+.pop-up .win .xiaobtn{margin-top:28px;}
+
+@media only screen and (max-width:800px) {
+.logo{padding:3vw;}.logo a{display: block;}.logo a img{width:26.2vw;display: block;}
+.foot{display:none;}
+.container{padding-bottom:10vw;background:#aa1b2b url(http://static.hudong.com/28/71/26100000012243154165717021748.png) no-repeat center top;background-size:100% auto;}
+.banner{height:73vw;}
+.h2title{width:92vw;height:11.4vw;background:url(http://static.hudong.com/16/71/26100000012243154165712883984.png) no-repeat;background-size:100% auto;}
+.h2title h2{font-size:4.5vw;margin-left:27.2%;width:43.2vw;min-height:7.7vw;line-height:7.7vw;}
+.h2title p{padding-top:1.5vw;font-size:3.6vw;}
+.h2title img{display: block;position:absolute;}
+.h2title .xstitle1{left:-2vw;top:-4vw;width:6vw;}
+.h2title .xstitle2{right:1vw;top:-8vw;width:7.5vw;}
+.h2title .xstitle3{right:-2vw;top:10vw;width:3vw;}
+.td1-box{padding:10vw 5.2vw 0;margin:5.7vw 4vw 0;height:57.6vw;background:url(http://static.hudong.com/55/72/26100000012243154165721308706.jpg) no-repeat center top;background-size:100% auto;}
+.progress{height:1.2vw;}
+.progress .innerbox{height:1.2vw;}
+.progress .inner{height:1.2vw;}
+.progress .inner .fish{right:-7.3vw;bottom:-.6vw;width:12.9vw;}
+.progress .time{top:-0.7vw;font-size:2.5vw;}
+.progress .time p{margin:0 auto 0.5vw;width:1.6vw;height:1.6vw;padding:0.4vw; }
+.progress .time span{width:1.6vw;height:1.6vw;}
+.progress .time.c{margin-left:-1.2vw;}
+.td1-box .red-packet img{margin:8.5vw auto 3.5vw;width:30.8vw;}
+.td1-box>p{font-size:2.6vw;line-height:5.3vw;}
+.td2{margin-top: 9vw;}
+.td2-box{margin:5.7vw 4vw 0;padding:5vw 5.2vw 0;height:119.5vw;background:url(td2-wap.jpg) no-repeat center top;background-size:100% auto;}
+.h3title{height:2.8vw;font-size:4vw;margin-top: 6.2vw;}
+.h3title span{padding:0 1vw 0 1.5vw;top:-3vw}
+.td2-box .h3title{margin-left:0;}
+.td2-box>p{padding-left:2vw;font-size:2.4vw;line-height:5vw;}
+.hint{margin:4vw 0 3vw;padding:1.5vw;font-size:.2vw;line-height:5.3vw;}
+.hui{font-size:2vw;}
+.td2-box img{width:78.6vw;}
+.td2-box .qylogo{margin:2vw auto 5.5vw;}
+.td2-box .tel{width:28vw;}
+.jl-btn{margin:6vw auto 0;width:39vw;height:8.2vw;background-size:100% auto;}
+.td3{margin-top: 9vw;}
+.td3-box{height:119.8vw;padding:5vw 5.2vw 0;margin:5.7vw 4vw 0;background:url(td2-wap.jpg) no-repeat center top;background-size:100% auto;}
+.td3-box .tw{margin-bottom:1vw;}
+.td3-box .tw span{line-height:5vw;padding-bottom:3vw;}
+.td3-box .tw img{width:70vw;float:none;}
+.td3-box p{font-size:2.4vw;padding:1vw 2.6vw 0 0.9vw;line-height:5.8vw;}
+.td3-box>img{margin:4vw auto 0;width:30vw;}
+.td4{margin-top:9vw;}
+.td4-box{padding:7vw 5.2vw 0;margin:5.7vw 4vw 0;height:245.5vw;background:url(td4-wrap.jpg) no-repeat center top;background-size:100% auto;}
+.td4-box>p{font-size:2.4vw;line-height:5.3vw;}
+.td4-box>h4{padding:4vw 0 5vw;font-size:5vw;}
+.td4-box li{width:43%;margin:0 14% 4vw 0;}
+.td4-box li.item4,.td4-box li.item2,.td4-box li.item6{margin-right: 0;}
+.td4-box li.item5{margin-left:0;margin-bottom:4vw;}
+.td4-box li.item6{margin-bottom:3.9vw;}
+.td4-box li img{width:100%;}
+.td4-box li p{padding:.5vw 1vw .3vw;height:9vw;font-size:2.8vw;line-height:4.5vw;}
+.td4-box li span{padding:0 1vw;font-size:3.5vw;}
+.td4-box li span strong{font-size:4vw;}
+.td5{margin:5.4vw 4vw 0;}
+.td5 .h3title span{font-size:4vw;padding:0 10vw 0 1.5vw;}
+.td5-box p{font-size:2.4vw;line-height:7vw;}
+.pop-up>div{margin-left:-38.4vw;margin-top:-64vw;width:60vw;height:72.8vw;padding:38vw 8.5vw 0 8.3vw;background-size:100% auto;}
+.pop-up .loginbox,.pop-up .win{background-size:100% auto;}
+.pop-up .btitle,.pop-up .remind{padding:0 4vw;text-shadow: 0px 2px 9px #fff7f3;font-size:6vw;}
+.pop-up .btitle{font-size:6vw;padding-top: 11vw;}
+.pop-up .remind{margin-top:2vw;font-size:3.6vw;}
+.pop-up .loginbox .btitle{font-size:7vw;padding-top: 11vw;}
+.pop-up .login,.pop-up .register{width:20vw;height:8vw;line-height:8vw;font-size:3.6vw;}
+.pop-up .btnbox{margin-top:10vw;}
+.pop-up .login{margin-right: 7vw;}
+.pop-up .close{width:8vw;height:8vw;bottom:0;margin-left:-4vw;}
+.pop-up .win{text-align: center;}
+.pop-up .win p{font-size:3.5vw;padding-bottom:.6vw;}
+.pop-up .win h3{font-size:4.5vw;}
+.pop-up .win .inpt{width:50vw;}
+.pop-up .win input{text-indent:2vw;padding:2vw 0;width:50vw;margin-top:3vw;font-size:3vw;}
+.pop-up .xiaobtn{font-size:3.6vw;margin:6vw auto 0;width:52vw;height:9vw;line-height:9vw;background-size:100% auto;}
+.pop-up .win .xiaobtn{margin-top:7vw;}
+}
+</style>
+<script type="text/javascript" src="http://www.huimg.cn/lib/jquery-1.6.4.min.js"></script>
+<script type="text/javascript">
+	
+	var toUrl="http://api.hudong.com";
+	/**
+ * 工具对象,包括所有的公共方法。
+ */
+var commonTool = {
+	//判断data中是否含有html标签
+	checkHTML: function(data){
+		var reg = /<(.*)>.*<\/\1>/;
+		if (data.search(reg) > -1) {
+			return true;
+		}
+		return false;
+	},
+	//替换
+	replaceAll: function(data, s1, s2){
+		return data.replace(new RegExp(s1, "g"), s2);
+	},
+	//获取cookie
+	getCookie: function(name){
+		
+		var start = document.cookie.indexOf(name + "=");
+		var len = start + name.length + 1;
+		if ((!start) && (name != document.cookie.substring(0, name.length))) {
+			return null;
+		}
+		if (start == -1) {
+			return null;
+		}
+		var end = document.cookie.indexOf(';', len);
+		if (end == -1) 
+			end = document.cookie.length;
+		return unescape(document.cookie.substring(len, end));
+	},
+	//判断互动用户是否登录
+	isLogin: function(){
+		return (commonTool.getCookie("hduser") != null)
+	},
+	getReplyTime: function(){
+		var time = new Date();
+		var year = time.getFullYear();
+		var month = (time.getMonth() + 1) < 10 ? "0" + (time.getMonth() + 1) : time.getMonth() + 1;
+		var date = time.getDate() < 10 ? "0" + time.getDate() : time.getDate();
+		var h = time.getHours() < 10 ? "0" + time.getHours() : time.getHours();
+		var m = time.getMinutes() < 10 ? "0" + time.getMinutes() : time.getMinutes();
+		return (year + "-" + month + "-" + date + " " + h + ":" + m);
+	},
+	filterA: function(data){
+		return data.replace(/<a[^>]*>([^<]*)<\/a>/ig, '$1');
+	}
+	
+}
+
+ var hduser=commonTool.getCookie("hduser");
+ //var hduser="x1m";
+function getHb(){
+	
+	var isLogin=commonTool.isLogin();
+	if(isLogin==false){
+		$(".pop-up").show();
+		$("#dl_zc").show();
+		
+	}else{
+		//判断时间，是否开始或者结束
+		
+		var myDate = new Date();
+		
+		var h=myDate.getHours(); 
+		 
+		if(parseInt(h) < 14){
+			$(".pop-up").show();
+			$("#no_begin").show();
+			
+		}else if(parseInt(h) >= 15){
+			$(".pop-up").show();
+			$("#today_end").show();
+			
+		}else{
+			 //处理逻辑
+			
+			 
+			 //已经抢过红包了。
+			 //$(".pop-up").show();
+			 //$("#has_hb").show();
+			 
+			$.ajax({
+				
+             type: "GET",
+             url:toUrl+'/redPacketApi.do?Action=checkHasHb&hduser='+hduser+'&date='+new Date().getTime(),
+             dataType:'JSONP',  // 处理Ajax跨域问题
+             jsonpCallback: "callback",  //指定回调函数名称
+             success: function(msg){ 
+             	        //alert(123);
+             }
+
+         });
+			
+		}
+		
+		
+	}
+}
+//去登陆注册
+function toDl(){
+	
+		window.location.href="http://passport.baike.com/login.do?service="+window.location.href;
+}
+
+
+
+function callback (data) {
+	  if(0==data){//可以抢
+	  	$(".pop-up").show();
+			$("#tx_info").show();
+	  }else if(2==data){
+	  	$(".pop-up").show();
+			$("#has_hb").show();
+			
+	  }else if(1==data){
+	  	alert("信息有误，请联系管理员！");
+	  }
+}
+//关闭
+function closeDiv(id){
+	$(".pop-up").hide();
+	$("#"+id).hide();
+}
+
+function hdJd(){
+	var myDate = new Date();
+	var h=myDate.getHours();
+	var m=myDate.getMinutes();//分钟（0-59）
+	var wid="0%";
+	if(parseInt(h) < 14){
+			
+	}else if(parseInt(h) >= 15){
+			wid="100%";
+	}else{
+		//确切的进度
+		wid=(100*(parseInt(m))/60)+"%"
+	}
+	$("#hd_jd").css("width",wid);
+	
+	
+}
+  
+  function checkPhone(phone){ 
+    if(!(/^1[34578]\d{9}$/.test(phone))){ 
+        return false; 
+    }else{
+    	return true;
+    } 
+}
+  function toLq(){
+  	//var hduser=commonTool.getCookie("hduser");
+  	var username=$("#username").val();
+  	var phone=$("#phone").val();
+  	
+  	if(username==""){
+  		alert("请输入用户名！");
+  		return;
+  	}
+  	if(phone==""){
+  		alert("请输入手机号！");
+  		return;
+  	}else{
+  		if(!checkPhone(phone)){
+  			alert("请输入正确格式的手机号！");
+  		  return;
+  		}else{
+  			//提交表单
+  			$.ajax({
+             type: "GET",
+             url:toUrl+'/redPacketApi.do?Action=saveHb&hduser='+hduser+'&username='+username+'&phone='+phone+'&date='+new Date().getTime(),
+             dataType:'JSONP',  // 处理Ajax跨域问题
+             jsonpCallback: "callback2",  //指定回调函数名称
+             success: function(msg){ 
+             	        //alert(123);
+             }
+
+         });
+  			
+  		}
+  	}
+  	
+  	
+  	
+  	
+  }
+  
+  function callback2 (data) {
+	  if(3==data){//可以抢
+	  	$(".pop-up").hide();
+			$("#tx_info").hide();
+	  	alert("红包已到手！耐心等待客服联系您核实~");
+	  }else if(2==data){
+	  	$(".pop-up").show();
+			$("#has_hb").show();
+	  }else if(1==data){
+	  	alert("信息有误，请联系管理员！");
+	  }
+}
+  
+  
+	$(function(){
+		
+		 hdJd();
+		 setInterval(hdJd,20000);
+	})
+	
+</script>
+
+</head><body>
+<div class="logo wrap"><a href="http://mkt.baike.com/"><img alt="百科营销" src="http://static.hudong.com/18/96/26100000010122149577966091914.png"></a></div>
+<div class="container">	
+<div class="wrap">
+	<div class="banner"><h1>摇身一变好运锦鲤</h1><p>万一错过了11.11？你还要再错过12.12吗？</p></div>
+	<div class="td1">
+		<div class="h2title">
+			<img src="http://static.hudong.com/68/73/26100000012243154165737960616.png" class="xstitle1" /><img src="http://static.hudong.com/45/74/26100000012243154165740403518.png" class="xstitle2" /><img src="http://static.hudong.com/03/74/26100000012243154165743589122.png" class="xstitle3" />
+			<h2 id="222">手速快锦鲤</h2><p>限时疯抢 急速秒杀</p>
+		</div>
+		<div class="td1-box">
+			<div class="progress">
+				<div class="innerbox" id="hd_jd" style="width:30%;">
+					<div class="inner"><img src="http://static.hudong.com/00/35/26100000003551154164350391353.png" class="fish"/></div>
+				</div>
+				<div class="time l"><p><span></span></p> 14:00</div>
+				<div class="time c"><p><span></span></p> 14:30</div>
+				<div class="time r"><p><span></span></p> 15:00</div>
+			</div>
+			<div class="red-packet" >
+				<img src="http://static.hudong.com/32/35/26100000003551154164355514362.png"   onclick="getHb()"/>
+			</div>
+			<p>每天14:00-15:00间抢10000元产品抵扣卷</b>，每次限量100份。<br />领取成功并抵扣成功的企业将获得企业知晓，SEO诊断报告。</p>
+		</div>	
+	</div>
+	<div class="td2">
+		<div class="h2title">
+			<img src="http://static.hudong.com/68/73/26100000012243154165737960616.png" class="xstitle1" /><img src="http://static.hudong.com/45/74/26100000012243154165740403518.png" class="xstitle2" /><img src="http://static.hudong.com/03/74/26100000012243154165743589122.png" class="xstitle3" />
+			<h2>会持家锦鲤</h2><p>推广渠道拼多多  奖金直减会持家</p>
+		</div>
+		<div class="td2-box">
+			<h3 class="h3title"><span>形式一</span></h3>
+			<p>活动期间，预付推广定金享受定金翻倍特权，如：11111元可翻倍至22222元抵扣，以此类推。</p>
+			<h3 class="h3title"><span>形式二</span></h3>
+			<p>平台渠道，站外优质渠道联合推广，买的多，省的多，多买多优惠。</p>
+			<div class="hint">
+				<p>参与以上任意两种活动形式均可获得<b>企业爆款IP打造特权</b>，且可获得<b>百科专属资质认证</b>，专业平台为企业诚信保驾护航。</p>
+				<p class="hui">注：以上两种优惠形式可叠加使用</p>
+			</div>
+			<h3 class="h3title"><span>部分联合推广资源</span></h3>
+			<img src="http://static.hudong.com/64/67/26100000012243154165671129746.png" class="qylogo"/>
+			<img src="http://static.hudong.com/76/71/26100000012243154165710190518.png" class="tel"/>
+			<!--<a href="javascript:;" class="jl-btn">立即咨询</a>-->
+		</div>
+	</div>
+	<div class="td3">
+		<div class="h2title">
+			<img src="http://static.hudong.com/68/73/26100000012243154165737960616.png" class="xstitle1" /><img src="http://static.hudong.com/45/74/26100000012243154165740403518.png" class="xstitle2" /><img src="http://static.hudong.com/03/74/26100000012243154165743589122.png" class="xstitle3" />
+			<h2>人脉王锦鲤</h2><p>熟人有新礼 变现更轻松</p>
+		</div>
+		<div class="td3-box">
+			<h3 class="h3title"><span>形式一</span></h3>
+			<p class="tw clearfix"><span>老客户购买新产品 </span> <img src="http://static.hudong.com/73/70/26100000012243154165705298852.png"/></p>
+			<h3 class="h3title"><span>形式二</span></h3>
+			<p>人脉圈变现，所有老客户发送该活动页面至朋友圈并成功邀请新客户购买任意产品，即可获得<br><b>10000元推广抵现红包</b>，关注活动页下方二维码即可联系客服索要红包。</p>
+			<img src="http://static.hudong.com/57/64/26100000012243154165642172958.png"/>
+		</div>
+	</div>
+	<div class="td4">
+		<div class="h2title">
+			<img src="http://static.hudong.com/68/73/26100000012243154165737960616.png" class="xstitle1" /><img src="http://static.hudong.com/45/74/26100000012243154165740403518.png" class="xstitle2" /><img src="http://static.hudong.com/03/74/26100000012243154165743589122.png" class="xstitle3" />
+			<h2>超级锦鲤王</h2>
+		</div>
+		<div class="td4-box">
+			<p>活动期间，<b>转发</b>这个活动页面至<b>朋友圈，配文案：互动百科锦鲤王。</b>保留3小时以上，关注下方二维码，截图并发送后台客服。我们会在12月18日当天<b>抽出</b>这位集<b>全球独宠</b>于一身的<b>锦鲤王</b>（注：锦鲤王仅产生在当月订单金额满10万元以上的客户群中）。怎么宠你，请看：</p>
+			<h4>你家年终奖， 我们承包啦！</h4>
+			<ul class="clearfix">
+				<li class="item1">
+					<img src="http://static.hudong.com/04/67/26100000012243154165674130721.png"/>
+					<p>尚铭电器3D机械手太空舱家用按摩椅 (3台)</p>
+					<span>X<strong>4380</strong>元</span>
+					<em class="rxs"></em>
+				</li>
+				<li class="item2">
+					<img src="http://static.hudong.com/53/67/26100000012243154165676721704.png"/>
+					<p>Apple watch series 4智能手表 (3台)</p>
+					<span>￥<strong>3999</strong>元</span>
+				</li>
+				<li class="item3">
+					<img src="http://static.hudong.com/52/67/26100000012243154165678303686.png"/>
+					<p>石头（roborock）扫地机器人 (3台)</p>
+					<span>￥<strong>2499</strong>元</span>		
+				</li>
+				<li class="item4">
+					<img src="http://static.hudong.com/38/68/26100000012243154165680191302.png"/>
+					<p>iPad平板电脑2018年新款9.7英寸 (3台)</p>
+					<span>￥<strong>2565</strong>元</span>
+					<em class="rxs"></em>
+				</li>
+				<li class="item5">
+					<img src="http://static.hudong.com/12/67/26100000012243154166670823942.png"/>
+					<p>海尔258升风冷无霜三门冰箱 (3台)</p>
+					<span>￥<strong>2499</strong>元</span>
+					<em class="rxs"></em>
+				</li>
+				<li class="item6">
+					<img src="http://static.hudong.com/43/68/26100000012243154165683315733.png"/>
+					<p>美的多功能微波炉 (3台)</p>
+					<span>￥<strong>529</strong>元</span>
+				</li>
+				<li class="item7">
+					<img src="http://static.hudong.com/63/68/26100000012243154165685208552.png"/>
+					<p>飞利浦净齿呵护型电动牙刷 (3台)</p>
+					<span>￥<strong>479</strong>元</span>
+					<em class="rxs"></em>
+				</li>
+			</ul>
+			<!--<a href="javascript:;" class="jl-btn">立即咨询</a>-->	
+		</div>
+	</div>
+	<div class="td5">
+		<h2 class="h3title"><span>活动规则</span></h2>
+		<div class="td5-box">
+			<p>1. 参阅活动前，请详细阅读活动规则及相关条款。凡参与本次活动，则视为同意活动规则及免责声明条款。</p>
+			<p>2. 您在本次活动中所填写的所有信息，不会用于任何商业用途。</p>
+			<p>3. 若推广产品涉嫌违法或侵犯第三人合法权益等不合符百科推广开户资质的中奖者，将取消其获奖资格。</p>
+			<p>4. 如遇不可抗力，本次活动因故无法进行时活动主办方在法律允许的范围内有权决定取消、终止、修改或暂停本活动。</p>
+			<p>5. 互动百科对本次活动在法律范围内拥有最终解释权。</p>
+		</div>
+	</div>	
+</div>
+</div>
+<div class="pop-up" style="display: none;" >
+	<div class="loginbox"  style="display: none;" id="dl_zc" >
+		<h3 class="btitle">参与抢红包</h3>
+		<p class="remind">请先登录互动百科账号</p>
+		<p class="btnbox"><a href="###" onclick="toDl();return false;" class="login" >登录</a><a   href="###" onclick="toDl();return false;"  class="register" >注册</a></p>
+		<em class="close"  onclick="closeDiv('dl_zc')"></em>
+	</div>
+	
+	<div class="win" style="display: none;"id="tx_info">
+		<p>恭喜你抢到</p>
+		<h3>10000元红包</h3>
+		<form id="hbfrm" method="post">
+		<div class="inpt">
+			<input type="text" id="username" name="username" maxlength="10"  placeholder="请输入您的姓名" />
+			<input type="text" name="phone"  id="phone" maxlength="11"  placeholder="请输入正确的手机号" />
+		</div>
+		
+		</form>
+		<button  class="xiaobtn" onclick="toLq()">立即领取</button>
+		<em class="close"  onclick="closeDiv('tx_info')"></em>
+	</div>
+	
+	<div class="failbox" style="display: none;">
+		<h3 class="btitle">很遗憾，没抢到</h3>
+		<p class="remind">购买产品获得更多优惠吧</p>
+		<a href="" class="xiaobtn">立即购买</a>
+		<em class="close"></em>
+	</div>
+	<div class="already" style="display: none;" id="has_hb">
+		<h3 class="btitle">您已抢过红包了</h3>
+		<p class="remind">请将机会让给其他人吧</p>
+		<a href="" class="xiaobtn">返回活动</a>
+		<em class="close"  onclick="closeDiv('has_hb')"></em>
+	</div>
+	<div class="already" style="display: none;" id="today_end">
+		<h3 class="btitle">今日机会已用完</h3>
+		<p class="remind">明天14:00点准时来哦</p>
+		<a href="" class="xiaobtn">返回活动</a>
+		<em class="close" onclick="closeDiv('today_end')"></em>
+	</div>
+	<div class="already"  id="no_begin" style="display: none;">
+		<h3 class="btitle">活动暂未开始</h3>
+		<p class="remind">每天14:00点准时来哦</p>
+		<a href="" class="xiaobtn">返回活动</a>
+		<em class="close"  onclick="closeDiv('no_begin')"></em>
+	</div>
+	<div class="already" style="display: none;">
+		<h3 class="btitle">活动已经结束</h3>
+		<p class="remind">每天14:00点准时开始</p>
+		<a href="" class="xiaobtn">返回活动</a>
+		<em class="close"></em>
+	</div>
+</div>
+
+
+<div class="foot"><iframe width="1000px" height="110px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.baike.com/all/footsimp.html"> </iframe></div>
+
+
+</body>
+</html>
